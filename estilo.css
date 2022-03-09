@@ -21,7 +21,9 @@ div {
     text-align: center;
     padding: 8px;
     display: flex;
-    justify-content: center;
+
+    min-width: 280px;
+    margin: auto;    
 }
 
 footer {
