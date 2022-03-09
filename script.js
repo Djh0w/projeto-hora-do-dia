@@ -3,10 +3,11 @@ function carregar() {
     var cum = document.getElementById('cumprimento')
     var img = document.getElementById('imagem')
     var data = new Date()
-    var hora = data.getHours()    
+    var hora = data.getHours()  
+    var minutos = data.getMinutes()  
     
     
-    msg.innerHTML = `Agora são ${hora} horas.`
+    msg.innerHTML = `Agora são ${hora}:${minutos}h`
 
     if (hora >= 0 && hora < 12) {
         //bom dia 
